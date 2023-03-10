@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 namespace HairSalon.Controllers
-{
+{ 
   public class ClientController : Controller
   {
     private readonly HairSalonContext _db;
