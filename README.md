@@ -9,7 +9,7 @@
 * _C#_
 * _.NET_
 * _Entity Framework Core_
-* _MYSQL/MySql Workbench_ 
+* _MYSQL/MySql Workbench_
 * _HTML_ 
 * _CSS_ 
 
@@ -19,7 +19,7 @@ _Detailed Desc._
 
 ## Requirements
 
-* _Mysql/MySqlWorkbench_ 
+* _Mysql/MySqlWorkbench_
 
 * _.NET 6_
 
