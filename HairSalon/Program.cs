@@ -3,14 +3,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using HairSalon.Models;
 
-
 namespace HairSalon
 {
   class Program
   {
     static void Main(string[] args)
     {
-
       WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
       builder.Services.AddControllersWithViews();
