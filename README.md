@@ -15,11 +15,11 @@
 
 ## Description
 
-_Detailed Desc._
+_Detailed Desc._ 
 
 ## Requirements
 
-* _Mysql/MySqlWorkbench_
+* _Mysql/MySqlWorkbench_ 
 
 * _.NET 6_
 
