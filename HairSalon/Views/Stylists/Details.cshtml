@@ -22,6 +22,7 @@ else
     <li>@Html.ActionLink($"{client.ClientName}", "Details", "Clients", new { clientId = client.ClientId })</li>
   }
   </ul>
+  @Html.ActionLink($"Add new Client for this stylist?", "Create", "Clients")
 }
 
 <p>@Html.ActionLink("Back to list", "Index")</p>

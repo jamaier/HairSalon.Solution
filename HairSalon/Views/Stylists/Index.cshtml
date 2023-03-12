@@ -18,8 +18,9 @@ else
       <li>@Html.ActionLink($"{stylist.StylistName}", "Details", "Stylists", new { id = stylist.StylistId })</li>
     }
   </ul>
+  @Html.ActionLink($"Add new Client?", "Create", "Clients")
 }
 
 <p>@Html.ActionLink("Add new Stylist", "Create")</p>
-<p>@Html.ActionLink("Add new Client", "Cleints", "Create")</p>
+
 <p>@Html.ActionLink("Home", "Index", "Home")</p>
