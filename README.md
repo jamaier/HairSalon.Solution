@@ -1,8 +1,8 @@
-# _Proj Name_
+# _Hair Salon_
 
 #### By _Jacob Maier_
 
-#### _Short Description_
+#### _A web application using MySql for a database of the customers Stylists and Clients_
 
 ## Technologies Used
 
@@ -15,7 +15,7 @@
 
 ## Description
 
-_Detailed Desc._ 
+_This web application is using the Entity Framework to store user inputted data tying that information to the corosponding information. For example each client has an ID that is tied to the Stylists specific ID to track which clients belong to which stylists. The MySql database track both tables IDs and specific names tied to them. Future goals with this project are to add more options for the company owner having separate locations and the ability to filter employees and customers through each store location as well as customers being able to switch between stylists._ 
 
 ## Requirements
 
@@ -47,8 +47,8 @@ _Detailed Desc._
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _Show all Clients links not working as expected right now._
+
 
 ## License
 
