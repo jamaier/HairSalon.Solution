@@ -11,16 +11,16 @@
 
 @if (@Model.Clients.Count == 0)
 {
-  <h3>No Clients have been added! </h3>
+  <h3>No Clients have been added.</h3>
+  <p>@Html.ActionLink($"Add new Client for this stylist?", "Create", "Clients")</p>
 } 
 else
 {
-  <h3>Clients:</h3>
   <ul>
-    @foreach (Client client in Model.Clients)
-    {
-      <li>@Html.ActionLink($"{client.ClientName}", "Details", "Clients", new { id = client.ClientId })</li>
-    }
+  @foreach (Client client in Model.Clients)
+  {
+    <li>@Html.ActionLink($"{client.ClientName}", "Details", "Clients", new { clientId = client.ClientId })</li>
+  }
   </ul>
 }
 
